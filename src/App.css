@@ -1,0 +1,128 @@
+* {
+  font-family: "Poppins", sans-serif;
+  --btn-bgColor1: rgb(80, 2, 2);
+  --btn-bgColor2: rgb(237, 159, 33);
+  --txtColor1: rgb(3, 1, 57);
+  --txtColor2: rgb(255, 255, 255);
+  --txtColor3: rgb(133, 133, 133);
+  --bg-fill1: rgb(117, 4, 30);
+  --bg-fill2: rgba(255, 226, 167, 0.541);
+  --bg-fill3: rgb(255, 255, 255);
+  --bg-fill4: rgb(4, 13, 113);
+  --bg-fill5: rgb(117, 4, 30);
+  --bg-fill6: rgb(189, 189, 189);
+}
+
+.dashboard-animation {
+  transition: all !important;
+  transition-duration: 1000ms !important;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+}
+
+.header-animation {
+  transition: all !important;
+  transition-duration: 300ms !important;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1) !important;
+}
+
+.cover-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.btn-hover:hover {
+  background-color: var(--btn-bgColor1) !important;
+}
+
+.btn-hover2:hover {
+  background-color: var(--bg-fill2) !important;
+}
+
+.btn-hover3:hover {
+  background-color: var(--btn-bgColor1) !important;
+  color: var(--txtColor2) !important;
+}
+
+.btn-hover4:hover {
+  background-color: var(--txtColor2) !important;
+  color: var(--txtColor1) !important;
+  border: 2px solid black;
+}
+
+.btn-hoverDark:hover {
+  background-color: var(--txtColor3) !important;
+  color: var(--bg-fill4) !important;
+}
+
+.btn-hoverDark2:hover {
+  background-color: var(--bg-fill4) !important;
+  color: var(--bg-fill5) !important;
+}
+
+.clippy {
+  clip-path: circle(50% at 50% 50%);
+}
+
+.my-background {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.mobile-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 670px;
+}
+
+.user-modal {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.edit-table-modal {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.edit-table-modal2 {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.crab-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("https://images.unsplash.com/photo-1508427017025-6c6038d21189?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.formTicketBuy .searchWrapper {
+  background-color: white !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.form-check-input:checked {
+  background-color: var(--btn-bgColor1) !important;
+  border-color: var(--btn-bgColor1) !important;
+  color: white !important;
+}
+.form-check-input {
+  width: 16px;
+  height: 16px;
+  margin-top: 6px;
+  background-color: blueviolet;
+}
+#root
+  > div
+  > div
+  > div.max-w-screen-xl.mt-24.px-8.mb-8.grid.gap-8.grid-cols-1.md\:grid-cols-2.md\:px-12.lg\:px-16.xl\:px-32.py-16.mx-auto.bg-gray-100.text-gray-900.rounded-lg.shadow-lg {
+  margin-bottom: 6rem !important;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
